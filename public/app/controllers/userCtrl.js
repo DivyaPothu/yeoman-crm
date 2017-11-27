@@ -9,19 +9,8 @@ angular.module('userCtrl', ['userService'])
 
 	// grab all the users at page load
 	User.all()
-/*.then(function successCallback(response) {
-	console.log("Entered in successCallback ");
-	console.log(JSON.stringify(response.data));
-	console.log(response.status);
-	console.log(response.statusText);
-	console.log(response.statusText);
-	alert('Registered Sucessfully');
-}, function errorCallback(response) {
-	console.log("Entered in errorCallback ");
-	console.log(response.xhrStatus);
-	console.log(response.status);
-	console.log(response.statusText);
-});*/
+
+
 	 .then(function(data) {
 
 		 	// when all the users come back, remove the processing variable
